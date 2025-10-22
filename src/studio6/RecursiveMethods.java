@@ -59,9 +59,8 @@ public class RecursiveMethods {
 		
 			// FIXME create a helper method that can recursively reverse the given array
 			int i = 0;
-			int n = array.length-1;
 			int[] reversedArray = new int[array.length];
-			toReversedHelper(array, reversedArray, n);
+			toReversedHelper(array, reversedArray, i);
 			return reversedArray;
 			
 		
